@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#box{
+  display: block;
+  background-color: rgb(69, 53, 116, .8);
+  height: 400px;
+  width: 500px;
+  position: fixed;
+  top: calc(50vh - 300px);
+  left: calc(50vw - 250px);
+  overflow: scroll;
+  display: none;
+}
+#box, p{
+  color:  rgba(218, 148, 27, 0.8);
+}
+.pokeBall{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
