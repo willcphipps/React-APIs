@@ -111,7 +111,7 @@ function App() {
             <div className="pokeBall">
               <i
               onClick={(e)=> showPoke(e)}
-              className="nes-pokeball"></i>
+              className="nes-pokeball is-small"></i>
             </div>
         }
         <div id="box">

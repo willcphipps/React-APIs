@@ -26,7 +26,9 @@ code {
   color:  rgba(218, 148, 27, 0.8);
 }
 .pokeBall{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  background-color: rgba(218, 148, 27, 0.8);
+  position: fixed;
+  padding: 150px;
+  top: calc(50vh - 200px);
+  left: calc(50vw - 194px);
 }
